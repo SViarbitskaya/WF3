@@ -1,0 +1,249 @@
+				/*BODY*/
+body{
+	margin: 0;
+	font-size: 16px;
+	font-family:'Varela Round', sans-serif,  Verdana, sans-serif, Arial, Helvetica, "Helvetica Neue";
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+				/*ICONS*/
+.far, .fas{
+	color: #6196ff;
+}
+				/*NAVIGATION BAR*/
+.bg-dark{
+	background-color: #f8f9fa00 !important;
+}
+.nav-item .nav-link{
+	color: white !important;
+}
+.nav-item.active::after, .nav-item:hover::after, .col-12 > h2::after, .col-6 > h2::after{
+	content:"";
+	display: block;
+	height:4px;
+	width: 40px;
+	background-color:#6196ff; 
+	margin:auto;
+}
+.col-12 > h2::after{
+	margin-top: 20px;
+}
+.col-6 > h2::after{
+	margin-top: 20px;
+	margin-left: 0;
+}
+div > h5{
+	font-weight: bold;
+}
+.col-12 > h2{
+	font-weight: bold;
+	margin-top: 10%;
+	margin-bottom: auto;
+}
+.col-6 > h2{
+	font-weight: bold;
+}
+			/*HEADER*/
+#header{
+	background-image: url(../images/background1.jpg);
+	background-color: #545454;
+    background-blend-mode: multiply;
+	height: 100vh;
+	background-repeat: no-repeat;	
+  	background-attachment: fixed;
+  	background-position: left;
+  	background-size: cover;
+  	color: white;
+  	text-align: center;
+  	margin-top: -60px;
+}
+.headerContent{
+	position: absolute;
+	top: 40%;
+	text-align: center;
+}
+header h1{
+	font-size: 4.5em;
+	font-weight: bold;
+}
+header p{
+margin-left: 5%;
+margin-right: 5%;
+}
+.btn-primary{
+	color: black;
+	background-color: white;
+	border: none;
+}
+.btn-primary:hover{
+	background-color: #6196ff;
+}
+.btn-secondary{
+	background-color: #6196ff;
+	border: none;
+}
+.btn-secondary:hover{
+	background-color: white;
+	color: black;
+}
+				/*SECTION1: WELCOME*/
+#section1{
+	min-height: 100vh;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+				/*SECTION*2: FEATURED WORKS (Portfolio)*/
+#section2{
+	min-height: 100vh;
+	background-color: #f6f6f6;
+	color: black;
+}
+#section2 .row-spacer{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+				/*SECTION*3: SERVICES*/
+#section3{
+	min-height: 100vh;
+	background-color: white;
+	color: black;
+}
+#section3 .row-spacer{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+				/*SECTION*4: WHY CHOOSE US*/
+#section4{
+	min-height: 100vh;
+	background-color: #f6f6f6;
+	color: black;
+}
+#section4 ul{
+	margin-left: 2em;
+}
+#section4 li > p{
+	padding-left: 1.0em;
+}
+#section4 .row{
+	padding-top: 20%;
+}
+				/*SECTION*5: INFO*/
+#section5{
+	background-color: #494a4e;
+	color: white;
+}
+#section5 .flex-row{
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.number{
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+				/*SECTION*6: PRICING*/
+#section6{
+	min-height: 100vh;
+}
+#section6 .circle {
+  height: 8.5em;
+  width: 8.5em;
+  background-color: white;
+  border-radius: 100%;
+  border: 2px solid #6196ff;
+  text-align: center;
+  margin: auto;
+}
+#month{
+	color:black;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+#section6 .number{
+	color: black;
+}
+#section6 .card{
+	 border-radius: 0px;
+	 color: grey;
+}
+#section6 .btn-outline-primary{
+	border-radius: 0;
+	margin-top: 2.0em;
+}
+
+				/*SECTION*7: TEAM 1*/
+#section7{
+	background-color: #494a4e;
+	color: white;
+	min-height: 50vh;
+}
+#section7 .circle1 {
+  height: 6em;
+  width: 6em;
+  background-image: url(../images/team2.jpg);
+  background-size: cover;
+  margin:0 auto;
+  border-radius: 50%;
+}
+#section7 .circle2 {
+  height: 6em;
+  width: 6em;
+  background-image: url(../images/team1.jpg);
+  background-size: cover;
+  border-radius: 100%;
+  margin:0 auto;
+}
+#section7 .col-6{
+	margin: auto;
+	margin-top: 12%;
+}
+div.col p:last-child {
+	color:#6196ff;
+	}
+				/*SECTION*8: TEAM 2*/
+#section8{
+	min-height: 100vh;
+}
+#section8 .col-4{
+	margin: auto;
+	margin-top: 10%;
+}
+.figure{
+	padding-top: 2em;
+  	padding-bottom: 3em;
+  	padding-left: 1em;
+  	padding-right: 1em;
+  	border-radius: 0;
+	background-color: #f6f6f6;
+	border-radius: 0;
+}
+.figure-caption{
+	padding-top: 2em;
+}
+.figure-caption h5{
+	color:black;
+	font-weight: bold;
+}
+.figure-caption h6{
+	text-transform: uppercase;
+}
+		 	/*Section 9 : RECENT NEWS*/
+#section9{
+	min-height: 100vh;
+	background-color: #f6f6f6;
+}
+.xxx > p{
+	display: inline;
+	font-weight: bold;
+	margin-right: 0.5em;
+}
+#section9 .card-body > p{
+	color:grey;
+}
+		 	/*Section 10 : GET IN TOUCH*/
+#section10{
+	min-height: 100vh;
+}

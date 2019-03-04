@@ -1,0 +1,181 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Bleu : #6195ff */
+.nav-item .nav-link{
+	color: white !important; /* !important permet d'imposer notre couleur */
+}
+.nav-item.active::after, .nav-item:hover::after, .col-12 > h2::after, .col-6 > h2::after{
+	content:"";
+	display: block;
+	height: 4px;
+	width: 40px;
+	background-color: #6195ff;
+	margin: auto;
+}
+.col-12 > h2::after{
+	margin-top: 20px;
+}
+.col-6 > h2::after{
+	margin-top: 20px;
+	margin-left: 0; 
+}
+
+header{
+	background-image: linear-gradient(rgba(58,58,58,0.8), rgba(58,58,58,0.8)),url("../images/background1.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color: white;
+	height: 100vh;
+}
+
+.headerContent{
+	position: absolute;
+	top: 40vh;
+	width: 100%;
+}
+
+.headerContent h1{
+	font-size: 3em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: white;
+	border-color: white;
+	color: black;
+}
+.btn-primary:hover{
+	background-color: #6195ff;
+	border-color: #6195ff;
+	color: white;
+}
+.btn-secondary{
+	background-color: #6195ff;
+	border-color: #6195ff;
+	color: white;
+}
+.btn-secondary:hover{
+	background-color: white;
+	border-color: white;
+	color: black;
+}
+
+.col-12 > h2{
+	font-size: 2em;
+	font-weight: bold;
+	margin: 80px;
+}
+
+.card{
+	border-radius: 0;
+}
+
+/* Section About */
+#about i{
+	color: #6195ff;
+	font-size: 1.8em;
+}
+
+#about h5{
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 1.8em;
+}
+
+#about p{
+	color: grey;
+}
+
+#services i, #services h5{
+	display: inline;
+}
+
+#services i{
+	color: #6195ff;
+	font-size: 2em;
+}
+#services h5{
+	font-size: 1.6em;
+	font-weight: bold;
+}
+#services p{
+	padding-left: 40px;
+	color: grey;
+	margin-top: 10px;
+}
+#services .card{
+	padding-top: 36px;
+	padding-bottom: 36px;
+	margin-bottom: 36px;
+}
+
+#pricing p{
+	color: grey;
+}
+
+#pricing p:first-child{
+	text-transform: uppercase;
+}
+
+#pricing h5{
+	font-size: 2em;
+	font-weight: 900;
+	border: 3px solid #6195ff;
+	width: 120px;
+	height: 120px;
+	margin: auto;
+	border-radius: 50%;
+	padding: 22px;
+	margin-bottom: 15px;
+}
+
+#pricing h5 span{
+	display: block;
+	font-size: 0.5em;
+}
+
+#team img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+#portfolio figure{
+	overflow: hidden;
+}
+#portfolio img{
+	transition: 1s;
+}
+#portfolio img:hover{
+	transform: scale(1.5);
+	transition: 1s;
+}
+footer{
+	background-color: black;
+}
+
+.footer-logo{
+	font-size: 4em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+footer a{
+	color: white;
+}
+.footer-follow li{
+	display: inline;
+	background-color: #6195ff;
+	padding: 10px;
+	border-radius: 3px;
+}
+.footer-copyright{
+	color: lightgrey;
+}

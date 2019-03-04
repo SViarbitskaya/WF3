@@ -1,0 +1,10 @@
+img{
+	transition: 1s;
+}
+img:hover{
+	transform: scale(1.5);
+	transition: 3s;
+}
+figure{
+	overflow: hidden;
+}

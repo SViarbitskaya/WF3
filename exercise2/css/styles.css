@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+}
+body{
+	margin: 0;
+	font-size: 20px;
+}
+header{
+	background-image: url(../images/header-bg-small.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;	
+  	background-attachment: scroll;
+  	background-position: left;
+  	background-size: cover;
+}
+body > header > h1{
+	color: red;
+	font-size: 3em;
+	position: absolute;
+	left: 10vw;
+	top: 10vh;
+	text-shadow: 2px 2px 2px black, -2px -2px 2px black,2px -2px 2px black,-2px 2px 2px black;
+} 
+body > header > p {
+	color: #fff;
+	font-size: 2em;
+	position: absolute;
+	left: 10vw;
+	top: 20vh;
+	text-shadow: 2px 2px 2px black, -2px -2px 2px black,2px -2px 2px black,-2px 2px 2px black;
+}
+main{
+	padding: 15px;
+	background-color: #91c3d1;
+}
+section > ul{
+	list-style-type: square;
+}
+table {
+  	width: 100%;
+   	border-collapse: collapse;
+}
+table, th, td {
+  	border: 1px solid red;
+}
+th {
+  background-color: #BFBFBF;
+}
+tbody > tr:hover {background-color: #91c3d1;}
+tr:nth-child(odd) {background-color: #ECECEC;}
+tr:nth-child(even) {background-color: #BFBFBF;}
+
+@media (min-width: 1281px){
+	body{
+			font-size: 18px;
+	}
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+	body{
+			font-size: 16px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	body{
+			font-size: 14px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+	body{
+			font-size: 14px;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+			font-size: 12px;
+	}
+}
+@media (min-width: 321px) and (max-width: 480px) {
+	body{
+			font-size: 10px;
+	}
+}
+@media (max-width: 320px){
+	body{
+			font-size: 8px;
+	}
+}

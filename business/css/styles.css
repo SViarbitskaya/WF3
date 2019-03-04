@@ -1,0 +1,77 @@
+/*Global*/
+.btn{
+	border: none;
+	border-radius: 0.1rem;
+	margin-right: 4px;
+}
+.btn-primary{
+	background-color: #9dd7d9;
+	color: white;
+	border-bottom: 2px solid #82b7b9;
+}
+#orange.btn-primary{
+	background-color: #ff9c00;
+	border-bottom: 2px solid #de8800
+}
+.btn-secondary{
+	background-color: #f8f7f5;
+	color: grey;
+	border-bottom: 2px solid #e7e7e7;
+}
+/*Navigation bar*/
+.navbar{
+	padding: 1.5rem 1rem;
+}
+/*Header*/
+#header{
+	background-image: url("../images/bg-header.jpg");
+	background-position: center center;
+	background-size: cover;
+	color: white;
+	height: 100vh;
+}
+.headerContent{
+	position: relative;
+	top: 25vh;
+}
+.headerContent h2{
+	font-weight: bold;
+	text-transform: ;
+}
+
+#basic-addon1{
+	background-color: white;
+	border-bottom: 2px solid #e7e7e7;
+}
+.form-control, .input-group-text{
+	border: none;
+	border-bottom: 2px solid #e7e7e7;
+}
+.square > div{
+	width: 50px;
+	height: 50px;
+	background-color: #36363680;
+	margin: 5px;
+}
+ .square > div .fas{
+	position: relative;
+	top: 25%;
+}
+/*Recent Places*/
+#image{
+	background-image: url("../images/bf2-restaurant.jpg");
+	background-size: cover;
+	background-position: center;
+	height: : 200px;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 1300px){
+#logo{
+width: 160px;
+}
+.navbar .btn{
+	font-size: 13px;
+}
+}

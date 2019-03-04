@@ -1,0 +1,159 @@
+/*Global*/
+.btn{
+	border: none;
+	border-radius: 0.1rem;
+}
+
+/*Infoline*/
+#infoline p, #infoline i{
+	color:grey;
+	padding-bottom: 1rem;
+/*	margin: 0;*/
+}
+#infoline{
+	height: 3.5rem;
+	padding-top: 1rem;
+	border-bottom: black;
+}
+section#infoline.container-fluid{
+border-bottom: 1px solid lightgrey;
+}
+/*Navigation bar*/
+.navbar{
+	padding:0;
+}
+.nav-item{
+	text-align: center;
+	padding: 0;
+}
+.nav-item.active::after, .nav-item:hover::after{
+	content:"";
+	display: block;
+	height: 4px;
+	width: auto;
+	background-color: #00aeef;
+	margin: auto;
+}
+
+.navbar-nav .nav-link {
+	padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    color: black !important;
+    width: 6.5rem;
+    }
+.nav-link {
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+li .btn-primary{
+	background-color: #00aeef;
+}
+li .btn{
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+    margin-right: 0;
+    margin-left:1rem;
+    width: 6em;
+}
+/*.collapse.in {
+    display: block !important;
+}*/
+/*header*/
+/*Manual header*/
+#header{
+	background-image: url("../images/slider-image-1.jpg");
+	background-position: center center;
+	background-size: cover;
+	transition: background 1.5s linear;
+	color: white;
+	height: 100vh;
+}
+
+.headerContent{
+	position: relative;
+	top: 25vh;
+	width: 100%;
+}
+
+.headerContent h2{
+	font-size: 3em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+form{
+	background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+}
+.form-inline .btn{
+	background-color: #00aeef;
+}
+
+.form-inline .form-group{
+	margin-right: 0.2rem;
+}
+.form-inline .form-control, .form-inline .btn-primary{
+	border-radius: 0.1rem;
+	width: 171px;
+}
+		/*arrows*/
+#arrows{
+	display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 45vh;
+}
+#left, #right{
+	color: #fff;
+}
+/*carousel*/
+.carousel-inner .carousel-item:first-child .carousel-caption h5{
+	color:red;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.form-inline .form-control, .form-inline .btn{
+	width: 141px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.form-inline .form-control, .form-inline .btn{
+	width: 131px;
+}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+.form-inline .form-control, .form-inline .btn{
+	width: 116px;
+}
+}
+@media screen and (max-width: 575px) {
+.form-inline{
+	display: block;
+}
+.form-inline .form-control, .form-inline .btn{
+	width: 100%;
+
+}
+}
+
+/**/
+@media screen and (max-width: 991px){
+.navbar-nav .nav-link, .navbar-nav li{
+	padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
+.nav-item{
+	text-align: left;
+	padding: 0;
+}
+.nav-item.active::after, .nav-item:hover::after{
+	width: 6.5rem;
+	margin-left: 0;
+
+}
+li .btn{
+	padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0;
+}
+}

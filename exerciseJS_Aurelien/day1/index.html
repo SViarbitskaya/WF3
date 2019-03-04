@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Titre</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Varela+Round" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<header>
+			<div class="headerContent text-center">
+				<h1>Javascript Exercise 20.02.2019</h1>
+				<!-- <p>Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+				</p>
+				<a href="#" class="btn btn-primary">Get Started!</a>
+				<a href="#" class="btn btn-secondary">Learn more</a> -->
+			</div>
+		</header>
+		<main>
+			<div class="container text-center">
+				<section>
+					<h2>Exercise 1</h2>
+					<p>Créer un texte qui s’agrandit au clic. Si on reclique dessus, il reprendre sa taille initiale:</p>
+					<a href="#"><p id="text">TEXT</p></a>
+				</section>
+				<section  >
+					<h2>Exercise 2</h2>
+					<p>Créer une div de 200px par 200px. Appliquer un fond rouge à cette div. 
+						A l’intérieur de la div, placer un titre h1 et un paragraphe p. 
+						Cacher le paragraphe par défaut. Au survol du bloc, 
+						cacher le titre et afficher le p et passer le fond en gris. 
+						Quand on quitte le bloc, retour à l’initial.</p>
+					<div id="ex2" class="mx-auto">
+						<h1>Titre</h1>
+						<p style="display: none;">Paragraph</p>
+					</div>
+				</section>
+				<section>
+					<h2>Exercise 3</h2>
+					<p>Ecrire une page HTML contenant un script permettant d’afficher 
+						« Bonjour tout le monde » dans une balise p.
+						Améliorer le script pour qu’il permette de demander le Prénom 
+						de l’utilisateur depuis un input, et l’afficher à la place 
+						de “tout le monde”, en dynamique (écrit le nom au fur et à 
+						mesure qu'il est tapédans le champ).</p>
+					<p>Bonjour <span id="target">tout le monde</span> !</p>
+					<input type="text" id="input" placeholder="type your name">
+				</section>
+				<section>
+					<h2>Exercise 4</h2>
+					<p>Créer une variable de type Date.
+						Créer une variable correspondant à l'heure de la journée.
+						Afficher des infos différentes selon l'heure de la journée 
+						(Bonjour, bonsoir)</p>
+					<strong id="time"></strong>
+				</section>
+				<section>
+					<h2>Exercise 5</h2>
+					<p>Il s'agit d'un exercice des plus classiques en programmation. 
+						L'objectif est de créer un formulaire qui contient deux zones 
+						de texte et un bouton. Le fait de cliquer sur le bouton 
+						permute le contenu des deux zones de texte.</p>
+					<div class="d-inline-flex">
+						<textarea id="area1" rows="5" cols="30"></textarea>
+						<p><button id="swap" type="button">Swap</button></p>
+						<textarea id="area2" rows="5" cols="30"></textarea>
+					</div>
+				</section>
+				<section>
+						<h2>Exercise Final</h2>
+						<p>TODO-list</p>
+						<div>
+							<ul id="todo_list" style="list-style: none;">
+								<li><input type="checkbox" autocomplete="off"><span>Tache 1</span></li>
+								<li><input type="checkbox" autocomplete="off"><span>Tache 2</span></li>
+								<li><input type="checkbox" autocomplete="off"><span>Tache 3</span></li>
+								<li><input type="checkbox" autocomplete="off"><span>Tache 4</span></li>
+								<li><input type="checkbox" autocomplete="off"><span>Tache 5</span></li>
+							</ul>
+							<p><button id="delete" type="button">Delete completed</button></p>
+							<textarea id="new_task" rows="3" cols="30"></textarea>
+							<p><button id="add" type="button">add task</button></p>
+						</div>
+					</section>
+			</div>
+		</main>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/scripts-jquery.js"></script>
+	</body>
+</html>

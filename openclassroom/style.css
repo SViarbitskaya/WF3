@@ -1,0 +1,65 @@
+body
+{
+    color: white; /* Le texte de la page sera blanc */
+    background: url("bg.jpg"), fixed, left top, transparent;
+    text-align: center;
+}
+*
+{
+   /* font-family: cac_champagneregular, sans-serif;*/
+    font-family: serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+h1
+{
+    color: red;
+    font-size: 200%;
+}
+
+h2
+{
+    font-size: 150%;
+}
+
+#intro
+{
+    font-size: 120%;
+    font-style: italic;    
+ /*   display: block;*/
+    border: 3px ridge;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+}
+.dessous
+{
+    clear: both;
+}
+
+.underline
+{
+    text-decoration: underline;
+}
+.line_through
+{
+    text-decoration: line-through;
+}
+.overline
+{
+    text-decoration: overline;
+}
+.image
+{
+    float: center;
+    border: 2px white ridge;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+}
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('CAC_Champagne_fontfacekit/web_fonts/cacchampagne_regular_macroman/cac_champagne_webfont.eot') format('eot'),
+         url('CAC_Champagne_fontfacekit/web_fonts/cacchampagne_regular_macroman/cac_champagne_webfont.woff') format('woff'),
+         url('CAC_Champagne_fontfacekit/web_fonts/cacchampagne_regular_macroman/cac_champagne_webfont.ttf') format('truetype'),
+         url('CAC_Champagne_fontfacekit/web_fonts/cacchampagne_regular_macroman/cac_champagne_webfont.svg') format('svg');
+}
+
